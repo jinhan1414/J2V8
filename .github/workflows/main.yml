@@ -11,7 +11,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
 
-    - name: Download monolithic libraries to v8.out directory and bundle Linux jar and Android aar file
+    - name: Download monolithic libraries to v8.out directory and bundle Linux jar and Android aar file22
       run: |
         curl -O https://files.cnblogs.com/files/ghostr/libv8_monolith.zip
         mkdir -p v8.out
